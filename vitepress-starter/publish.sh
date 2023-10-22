@@ -15,7 +15,7 @@ git push -u origin main
 # 检查 git push 的返回状态码
 if [ $? -eq 0 ]; then
   cd -
-  sh ./vitepress-starter/deploy.sh # 推送成功后自动部署
+  sh ./deploy.sh # 推送成功后自动部署
   # exit  # 推送成功后退出终端
 else
   echo "推送失败，请检查错误信息。"
