@@ -3,6 +3,9 @@
 # 确保脚本抛出遇到的错误
 set -e
 
+# 记录原始的工作目录路径
+ORIGINAL_DIR=$(pwd)
+
 git init
 git add .
 # git commit -m 'publish'
@@ -18,8 +21,8 @@ fi
 
 # 检查 git push 的返回状态码
 if [ $? -eq 0 ]; then
-  cd -
-  sh ./deploy.sh # 推送成功后自动部署
+  cd $ORIGINAL_DIR
+  sh ./vitepress-starter/deploy.sh # 推送成功后自动部署
   # exit  # 推送成功后退出终端
 else
   echo "推送失败，请检查错误信息"
