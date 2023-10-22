@@ -1,11 +1,11 @@
 import { DefaultTheme } from 'vitepress';
 export const nav: DefaultTheme.NavItem[] = [
   {
-    text: '<span style="color:yellow">首页</span>',
+    text: '<span style="font-weight: bold">首页</span>',
     link: '/', // 表示docs/index.md
   },
   {
-    text: '个人成长',
+    text: '<span style="font-weight: bold">个人成长</span>',
     items: [
       {
         text: '所思.所想',
@@ -14,7 +14,7 @@ export const nav: DefaultTheme.NavItem[] = [
     ],
   },
   {
-    text: '关于我',
+    text: '<span style="font-weight: bold">关于我</span>',
     items: [
       {
         text: 'Github',
