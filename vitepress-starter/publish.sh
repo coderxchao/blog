@@ -5,11 +5,15 @@ set -e
 
 git init
 git add .
-git commit -m 'publish'
+# git commit -m 'publish'
+# 检查是否存在未推送的提交
+if [ -n "$(git status --porcelain)" ]; then
+  git commit -m 'publish'
+  git push -u origin main
+fi
 
 # Jacqueline712/mondaylab-blog 替换为自己的用户名和对应的仓库名
 # 意思为将main构建后的代码合并到gh-pages分支上，然后在gh-pages分支上部署~
-git push -u origin main
 
 
 # 检查 git push 的返回状态码
