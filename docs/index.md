@@ -20,10 +20,10 @@ hero:
   actions:
     - theme: brand
       text: 进入主页
-      link: /column/views/guide
+      link: /content/notes
     - theme: alt
-      text: 个人成长
-      link: /column/growing
+      text: 所思所想
+      link: /content/think
 
 features:
   - title: web前端
@@ -32,11 +32,11 @@ features:
 
   - title: 爱折腾
     details: 对于自己感兴趣的事物或技术爱捣鼓折腾
-    icon: 🕒
+    icon: 😆
 
   - title: 工具控
     details: 喜欢搜索折腾各种好用的工具及插件
-    icon: ⚒️
+    icon: 🛠️
 ---
 
 <!-- 使用自定义组件 -->
@@ -45,3 +45,25 @@ features:
 <!-- <script setup>
   import home from './components/home.vue';
 </script> -->
+
+<style>
+:root {
+  /* 主页文字渐变和图片背景渐变 */
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #e18a3b 30%, #c12c1f);
+  --vp-home-hero-image-background-image: linear-gradient(135deg,#029bbd,#fdc632);
+  --vp-home-hero-image-filter: blur(44px);
+}
+
+@media (min-width: 640px) {
+  :root {
+    --vp-home-hero-image-filter: blur(56px);
+  }
+}
+
+@media (min-width: 960px) {
+  :root {
+    --vp-home-hero-image-filter: blur(68px);
+  }
+}
+</style>

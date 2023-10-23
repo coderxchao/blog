@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress';
-import { nav } from './conf';
+import { nav } from './navbar';
+import { sidebar } from './sidebar';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -7,28 +8,21 @@ export default defineConfig({
   base: '/blog/',
   title: '爱编程de小草',
   description: '爱编程de小草的个人博客',
+  lang: 'zh-CN',
   // 网站icon
-  head: [['link', { rel: 'icon', href: '/favicon.jpg' }]],
+  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: nav,
     logo: '/avatar.png',
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' },
-        ],
-      },
-    ],
+    sidebar: sidebar,
     socialLinks: [{ icon: 'github', link: 'https://github.com/coderxchao' }],
     search: {
       provider: 'local',
     },
     outline: {
-      level: [2, 6],
-      label: '文章目录',
+      // level: [2, 6],
+      label: '目录',
     },
     docFooter: { prev: '上一篇', next: '下一篇' },
   },
