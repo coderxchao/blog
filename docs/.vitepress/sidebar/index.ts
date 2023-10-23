@@ -31,7 +31,7 @@ export const sidebar: DefaultTheme.Sidebar = {
         items: [
           {
             text: 'vue双向绑定',
-            link: '/bbb',
+            link: '/bbbc',
           },
         ],
       },
