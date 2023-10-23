@@ -10,7 +10,7 @@ export default defineConfig({
   description: '爱编程de小草的个人博客',
   lang: 'zh-CN',
   // 网站icon
-  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
+  head: [['link', { rel: 'icon', href: './favicon.ico' }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: nav,
