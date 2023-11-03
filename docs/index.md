@@ -20,10 +20,10 @@ hero:
   actions:
     - theme: brand
       text: 进入主页
-      link: /content/notes
+      link: /content/notes/
     - theme: alt
       text: 所思所想
-      link: /content/think
+      link: /content/think/
 
 features:
   - title: web前端
