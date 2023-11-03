@@ -12,29 +12,26 @@ export const sidebar: DefaultTheme.Sidebar = {
     base: '/content/issue',
     items: [],
   },
-  'content/notes': {
-    base: '/content/notes',
-    items: [
-      {
-        text: 'JavaScript',
-        collapsed: false,
-        items: [
-          {
-            text: 'JS闭包',
-            link: '/aaa',
-          },
-        ],
-      },
-      {
-        text: 'Vue',
-        collapsed: false,
-        items: [
-          {
-            text: 'vue双向绑定',
-            link: '/bbbc',
-          },
-        ],
-      },
-    ],
-  },
+  'content/notes': [
+    {
+      text: 'JavaScript',
+      collapsed: false,
+      items: [
+        {
+          text: 'JS闭包',
+          link: '/aaa',
+        },
+      ],
+    },
+    {
+      text: 'Vue',
+      collapsed: false,
+      items: [
+        {
+          text: 'vue双向绑定',
+          link: '/bbbc',
+        },
+      ],
+    },
+  ],
 };
