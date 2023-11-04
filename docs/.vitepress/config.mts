@@ -6,7 +6,7 @@ import { sidebar } from './sidebar';
 export default defineConfig({
   // 网站名称（不能与index.md中的titleTemplate一样）
   base: '/blog/',
-  title: '爱编程de小草',
+  title: '一颗小小草',
   description: '爱编程de小草的个人博客',
   lang: 'zh-CN',
   // 网站icon

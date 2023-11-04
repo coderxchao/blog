@@ -3,14 +3,14 @@
 layout: home
 home: true
 # 网站名称
-title: 爱编程de小草
-titleTemplate: 个人博客
+title: 一颗小小草
+titleTemplate: 好学若饥，谦卑若愚
 editLink: true
 lastUpdated: true
 
 hero:
   # 首页文字
-  name: '爱编程de小草'
+  name: '一颗小小草'
   text: '好学若饥，谦卑若愚'
   tagline: /web前端/爱折腾/工具控
   # 右边的图片
@@ -20,10 +20,10 @@ hero:
   actions:
     - theme: brand
       text: 进入主页
-      link: /content/notes/
+      link: /category/javascript/
     - theme: alt
       text: 所思所想
-      link: /content/think/
+      link: /category/think/
 
 features:
   - title: web前端

@@ -2,27 +2,40 @@ import { DefaultTheme } from 'vitepress';
 export const nav: DefaultTheme.NavItem[] = [
   {
     text: '首页',
-    link: '/', // 表示docs/index.md
+    link: '/',
   },
   {
-    text: '博客',
+    text: '开发笔记',
     items: [
       {
-        text: '学习笔记 📖',
-        link: '/content/notes/',
+        text: `JavaScript`,
+        link: '/category/javascript/',
       },
       {
-        text: '开发问题 💻',
-        link: '/content/issue/',
+        text: 'Vue',
+        link: '/category/vue/',
       },
       {
-        text: '所思所想 🤔',
-        link: '/content/think/',
+        text: 'React',
+        link: '/category/react/',
+      },
+      {
+        text: 'Node.js',
+        link: '/category/nodejs/',
+      },
+      {
+        text: 'MySQL',
+        link: '/category/mysql/',
       },
     ],
   },
+
+  {
+    text: '所思所想',
+    link: '/category/think/',
+  },
   {
     text: '关于我',
-    link: '/content/about/',
+    link: '/category/about/',
   },
 ];
