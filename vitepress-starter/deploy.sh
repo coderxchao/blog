@@ -21,6 +21,6 @@ git commit -m 'deploy'
 git branch -m gh-pages
 git checkout gh-pages
 # git push -f https://github.com/coderxchao/blog.git
-git push -f --set-upstream https://github.com/coderxchao/blog.git
+git push -f --set-upstream https://github.com/coderxchao/blog.git gh-pages
 
 cd -
