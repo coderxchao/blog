@@ -4,8 +4,8 @@ export const mysqlSidebar = [
     collapsed: false,
     items: [
       {
-        text: 'this的绑定规则有哪几种？',
-        link: '/category/javascript/笔记/this的绑定规则有哪几种？.md',
+        text: 'test',
+        link: '/',
       },
     ],
   },

@@ -1,11 +1,11 @@
-export const vueSidebar = [
+export const othersSidebar = [
   {
     text: '笔记',
     collapsed: false,
     items: [
       {
-        text: 'test',
-        link: '/',
+        text: 'docker的基本使用',
+        link: '/category/others/docker/docker的基本使用.md',
       },
     ],
   },
@@ -14,7 +14,7 @@ export const vueSidebar = [
     collapsed: false,
     items: [
       {
-        text: '分类1',
+        text: 'docker',
         collapsed: false,
         items: [
           {
@@ -24,7 +24,7 @@ export const vueSidebar = [
         ],
       },
       {
-        text: '分类2',
+        text: 'linux',
         collapsed: false,
         items: [
           {

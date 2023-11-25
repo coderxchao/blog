@@ -1,10 +1,11 @@
 import { DefaultTheme } from 'vitepress';
 import { jsSidebar } from './javascript';
-import { nodeSidebar } from './nodejs';
 import { mysqlSidebar } from './mysql';
+import { nodeSidebar } from './nodejs';
+import { othersSidebar } from './others';
 import { reactSidebar } from './react';
-import { vueSidebar } from './vue';
 import { thinkSidebar } from './think';
+import { vueSidebar } from './vue';
 export const sidebar: DefaultTheme.Sidebar = {
   '/category/javascript': jsSidebar,
   '/category/nodejs': nodeSidebar,
@@ -12,4 +13,5 @@ export const sidebar: DefaultTheme.Sidebar = {
   '/category/react': reactSidebar,
   '/category/vue': vueSidebar,
   '/category/think': thinkSidebar,
+  '/category/others': othersSidebar,
 };

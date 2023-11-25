@@ -27,6 +27,10 @@ export const nav: DefaultTheme.NavItem[] = [
         text: 'MySQL',
         link: '/category/mysql/',
       },
+      {
+        text: 'Others',
+        link: '/category/others/',
+      },
     ],
   },
 
