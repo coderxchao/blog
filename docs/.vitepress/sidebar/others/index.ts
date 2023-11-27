@@ -28,8 +28,8 @@ export const othersSidebar = [
         collapsed: false,
         items: [
           {
-            text: '文章2',
-            link: '/',
+            text: 'vim编辑器的一些常用指令',
+            link: '/category/others/linux/vim编辑器的一些常用指令.md',
           },
         ],
       },
