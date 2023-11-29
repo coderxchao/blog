@@ -4,35 +4,34 @@ export const othersSidebar = [
     collapsed: false,
     items: [
       {
-        text: 'docker的基本使用',
-        link: '/category/others/docker/docker的基本使用.md',
+        text: 'linux中常用指令',
+        link: '/category/others/linux/linux中常用指令.md',
       },
     ],
   },
   {
-    text: '归档',
+    text: 'docker',
     collapsed: false,
     items: [
       {
-        text: 'docker',
-        collapsed: false,
-        items: [
-          {
-            text: '文章1',
-            link: '/',
-          },
-        ],
+        text: 'docker基本概念与使用',
+        link: '/category/others/linux/docker基本概念与使用.md',
+      },
+    ],
+  },
+  {
+    text: 'linux',
+    collapsed: false,
+    items: [
+      {
+        text: '前端需要了解的nginx知识',
+        link: '/category/others/linux/前端需要了解的nginx知识.md',
       },
       {
-        text: 'linux',
-        collapsed: false,
-        items: [
-          {
-            text: 'vim编辑器的一些常用指令',
-            link: '/category/others/linux/vim编辑器的一些常用指令.md',
-          },
-        ],
+        text: 'vim编辑器的一些常用指令',
+        link: '/category/others/linux/vim编辑器的一些常用指令.md',
       },
+
     ],
   },
 ];
