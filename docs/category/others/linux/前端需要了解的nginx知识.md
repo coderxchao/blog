@@ -1,4 +1,4 @@
-[参考：知乎（就是要让你搞懂 Nginx，这篇就够了！）](<[https://](https://zhuanlan.zhihu.com/p/225842782?utm_id=0)>)
+[参考：知乎（就是要让你搞懂 Nginx，这篇就够了！）](https://zhuanlan.zhihu.com/p/225842782?utm_id=0)
 
 > 虽然`nginx`是跨平台的，但是由于一般服务器都是`linux`系统，所以将此文章分类到`linux`下，不再单独弄一个分类了。但是本文的所有操作还是在`windows 11`上进行的。其实不管在什么系统上操作`nginx`的配置文件都是一样的，没有什么大的区别。
 
