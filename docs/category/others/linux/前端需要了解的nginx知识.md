@@ -18,7 +18,7 @@
 
 ### nginx 安装与配置
 
-[下载地址](<[https://](https://nginx.org/en/download.html)>)
+[下载地址](https://nginx.org/en/download.html)
 下载完成后解压缩然后双击`nginx.exe`启动`nginx`即可，启动成功后我们访问`localhost`可以看到如下的一个默认页面
 ![Alt text](assets/%E5%89%8D%E7%AB%AF%E9%9C%80%E8%A6%81%E4%BA%86%E8%A7%A3%E7%9A%84Nginx%E7%9F%A5%E8%AF%86/Snipaste_2023-11-29_14-17-54.png)
 这个默认页面是如何加载的呢？我们需要找到我们之前解压缩 nginx 文件路径，该文件夹下有一个`conf`文件夹，该文件夹下有一个`nginx.conf`文件。内容如下：
