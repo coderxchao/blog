@@ -3,10 +3,7 @@ export const othersSidebar = [
     text: '笔记',
     collapsed: false,
     items: [
-      {
-        text: 'linux中常用指令',
-        link: '/category/others/linux/linux中常用指令.md',
-      },
+
     ],
   },
   {
@@ -24,12 +21,16 @@ export const othersSidebar = [
     collapsed: false,
     items: [
       {
+        text: 'linux中常用命令',
+        link: '/category/others/linux/linux中常用命令.md',
+      },
+      {
         text: '前端需要了解的nginx知识',
         link: '/category/others/linux/前端需要了解的nginx知识.md',
       },
       {
-        text: 'vim编辑器的一些常用指令',
-        link: '/category/others/linux/vim编辑器的一些常用指令.md',
+        text: 'vim编辑器的一些常用命令',
+        link: '/category/others/linux/vim编辑器的一些常用命令.md',
       },
 
     ],
